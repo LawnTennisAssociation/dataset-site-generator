@@ -6,7 +6,7 @@
   "publisher-url": "https://www.lta.org.uk",
   "keyword-1": "Tennis ",
   "keyword-2": "Participation",
-  "data-url": "",
+  "data-url": "https://api.clubspark.uk/odi/public/courses",
   "created": "2017-07-10",
   "documentation-url": "https://github.com/lawntennisassociation/opendata",
   "rpde-version": "0.2.3",
@@ -17,5 +17,5 @@
   "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us16.list-manage.com\",\"uuid\":\"76d8cd092a593bb16f39f1d6a\",\"lid\":\"364fe8f9f4\"}) })",
   "copyright-notice": "",
   "odi-certificate-number": "",
-  "publish": false
+  "publish": true
 }
