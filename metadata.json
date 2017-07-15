@@ -17,5 +17,6 @@
   "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us16.list-manage.com\",\"uuid\":\"76d8cd092a593bb16f39f1d6a\",\"lid\":\"364fe8f9f4\"}) })",
   "copyright-notice": "",
   "odi-certificate-number": "",
-  "publish": true
+  "publish": true,
+  "example-url": ["https://lawntennisassociation.github.io/opendata/example-courses.json"]
 }
