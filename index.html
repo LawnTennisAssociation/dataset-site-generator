@@ -40,31 +40,47 @@
     <!-- JSON-LD conforming to Google Structured Data specification. -->
     <script type="application/ld+json">
     {
-      "@context" : "http://schema.org",
-      "@type" : "Dataset",
-      "name" : "LTA Participation Campaigns ",
-      "id": "https://lawntennisassociation.github.io/",
+      "@context": [
+        "https://schema.org/",
+        "https://openactive.io/"
+      ],
+      "@type": "Dataset",
+      "@id": "https://lawntennisassociation.github.io/",
       "url": "https://lawntennisassociation.github.io/",
-      "description" : "Session data from the LTA for participation campaigns ; published using OpenActive RPDE v0.2.3.",
+      "name": "LTA Participation Campaigns ",
+      "description": "Session data from the LTA for participation campaigns ; published using OpenActive RPDE v0.2.3.",
       "keywords":[
-         "Tennis ",
-         "Participation",
-         "OpenActive"
+          "Tennis ",
+          "Participation",
+          "OpenActive"
       ],
       "license" : "https://creativecommons.org/licenses/by/4.0/",
-      "distribution" : {
-        "@type" : "DataDownload",
-        "encodingFormat" : "application/vnd.openactive.rpde+json; version=0.2.3",
-        "contentUrl" : "https://api.clubspark.uk/odi/public/courses"
-      },
-      "inLanguage": "en-GB",
+      "distribution": [
+        {
+          "@type" : "DataDownload",
+          "encodingFormat" : "application/vnd.openactive.rpde+json; version={rpdeversion}",
+          "contentUrl" : "https://api.clubspark.uk/odi/public/courses"
+        }
+      ],
+      "discussionUrl": "https://github.com/lawntennisassociation/opendata/issues",
+      "documentation": "https://github.com/lawntennisassociation/opendata",
+      "inLanguage": [
+        "en-GB"
+      ],
       "publisher": {
-         "@type": "Organization", 
-         "name": "Lawn Tennis Association",
-         "url": "https://www.lta.org.uk",
-         "logo": "https://lawntennisassociation.github.io/images/logo.png"
+        "@type": "Organization",
+        "name": "Lawn Tennis Association",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lawntennisassociation.github.io/images/logo.png"
+        },
+        "url": "https://www.lta.org.uk"
       },
-      "datePublished" : "2017-07-10T00:00:00.000Z"
+      "datePublished": "2017-07-10T00:00:00.000Z",
+      "backgroundImage": {
+        "@type": "ImageObject",
+        "url": "https://lawntennisassociation.github.io/images/bg.jpg"
+      }
     }
     </script>
   </head>
